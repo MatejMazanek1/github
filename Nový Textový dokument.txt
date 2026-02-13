@@ -1,0 +1,54 @@
+1. Rozdíly mezi CSMA/CD a CSMA/CA
+CSMA/CD (Carrier Sense Multiple Access with Collision Detection)
+
+Používalo se hlavně v klasických kabelových sítích Ethernet.
+Zařízení nejprve „poslouchá“ médium, zda je volné.
+Pokud je volné, začne vysílat.
+Pokud dojde ke kolizi (dvě zařízení vysílají současně), kolizi detekuje, přenos přeruší a po náhodné době ho zopakuje.
+Kolize se řeší až po jejich vzniku.
+
+CSMA/CA (Carrier Sense Multiple Access with Collision Avoidance)
+
+Používá se ve Wi-Fi sítích.
+Zařízení také nejprve kontroluje, zda je médium volné.
+Snaží se ale kolizím předcházet – čeká náhodný čas, může použít potvrzovací rámce (ACK).
+Kolize nelze přímo detekovat (bezdrátové prostředí), proto se jim předchází.
+Hlavní rozdíl:
+CSMA/CD kolize detekuje,
+
+CSMA/CA se jim snaží zabránit.
+
+2. Popis MIMO – proces
+
+MIMO (Multiple Input Multiple Output) je technologie používaná v moderních Wi-Fi sítích.
+
+Princip:
+
+Router i zařízení mají více antén.
+Data se rozdělí na více datových toků.
+Tyto toky jsou vysílány současně přes různé antény.
+Přijímač signály zpracuje a znovu složí dohromady.
+
+Výhody:
+
+Vyšší přenosová rychlost.
+Lepší stabilita signálu.
+Lepší pokrytí.
+Existuje např. SU-MIMO (pro jedno zařízení) a MU-MIMO (pro více zařízení současně).
+
+3. Rozdíly mezi Wi-Fi 4 a Wi-Fi 5
+
+Wi-Fi 4 (standard 802.11n)
+Pracuje na 2,4 GHz a 5 GHz.
+Maximální teoretická rychlost až 600 Mb/s.
+Podporuje MIMO.
+
+Wi-Fi 5 (standard 802.11ac)
+
+Pracuje pouze na 5 GHz.
+Vyšší rychlost (až několik Gb/s).
+Podporuje MU-MIMO.
+Lepší efektivita a širší kanály (80/160 MHz).
+
+Hlavní rozdíl:
+Wi-Fi 5 je rychlejší, efektivnější a lépe zvládá více zařízení současně než Wi-Fi 4.
